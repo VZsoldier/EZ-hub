@@ -2,11 +2,13 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("EZ HUB -- Some Random Dev#9282", "Ocean")
 local AIMBOT = Window:NewTab("FPS CHEATS")
 local Section = AIMBOT:NewSection("AIMBOT")
+
+--FPS GAMES
 Section:NewButton("AIMBOT (WITH FOV)", "a universal Aimbot lmao", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script.lua"))()
 end)
 Section:NewButton("AIMBOT (SILENT)", "a universal Silent Aimbot lmao", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NikolaiV3rm/Scripts/main/Dynamic%20Silent%20Aim.lua", true))()
 end)
 
 local Section = AIMBOT:NewSection("ESP")
@@ -18,3 +20,29 @@ local Section = AIMBOT:NewSection("HITBOX")
 Section:NewButton("HIT BOX (Basic)", "cant aim use this pussy", function()
     loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
 end)
+
+
+--UNIVERSAL
+local UNIVERSAL = Window:NewTab("UNIVERSAL CHEATS")
+local Section = UNIVERSAL:NewSection("UNIVERSAL")
+
+Section:NewButton("FLY", "you are a bird FLYYYY", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PhoenixAceVFX/Roblox-Scripts/master/FE%20Fly.lua", true))()
+end)
+
+Section:NewButton("SPEED (100)", "FAST BOIIIII", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/cL0iFYHr", true))()
+end)
+
+Section:NewButton("SPEED (150)", "FAST BOIIIIIIIII", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/N405zDz9", true))()
+end)
+
+Section:NewButton("SPEED (200)", "FAST BOIIIIIIIIIIII", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ffuSJPTA", true))()
+end)
+
+Section:NewButton("JUMP (Infinite)", "you are a bird FLYYYY", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/YbnCTekK", true))()
+end)
+
