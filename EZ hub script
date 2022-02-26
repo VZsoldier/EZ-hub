@@ -42,7 +42,18 @@ Section:NewButton("SPEED (200)", "FAST BOIIIIIIIIIIII", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/ffuSJPTA", true))()
 end)
 
-Section:NewButton("JUMP (Infinite)", "you are a bird FLYYYY", function()
+Section:NewButton("JUMP (Infinite)", "shitty fly hacks", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/YbnCTekK", true))()
 end)
 
+--Craked PAID SCRIPTS
+local PAID = Window:NewTab("OP PAID SCRIPTS")
+local Section = PAID:NewSection("PAID")
+
+Section:NewButton("TITAN HUB", "https://discord.gg/JM2fUKMXaS", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/MatDevv/TitanHubSecurity/main/TitanHubSecurity'),true))()
+end)
+
+Section:NewButton("NOOB'S WL GUI", "https://discord.gg/3QdG5ueFzw", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/epKQc3mW", true))()
+end)
